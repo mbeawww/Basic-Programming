@@ -26,7 +26,11 @@ function grade(h: number, m:number, s: number) {
         return 'เกรดD'
     }else if(score < 70) {
         return 'เกรดC'
+    }else if(score < 80) {
+        return 'เกรดB'
+    }else if(score < 100) {
+        return 'เกรดA'
     }
 }
 
-console.log(grade(10,45,5))
+console.log(grade(5,45,50))

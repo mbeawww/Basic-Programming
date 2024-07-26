@@ -1,0 +1,51 @@
+function helloWorld() {
+    console.log('Hi')
+}
+//ไม่รับ input ไม่มี output
+
+function secondHello(name: string) {
+    console.log(name)
+} // รับ input แต่ไม่ output
+
+secondHello('M')
+
+function getPi() {
+    return 3.14
+}
+
+console.log(getPi())
+
+function st(fname: string, sname: string, tname: string) {
+    if (!(fname === 'nan' || sname === 'pleum') && tname === 'yo') {
+        console.log('เริ่มสอน')
+    } else {
+        console.log('ยังไม่สอน')
+    }
+}
+
+
+
+st('pleum', 'nan', 'yo')
+
+
+function gen(f: string, h: number, w:number) {
+    if (f === 'เพศชาย' && h > 170 === w < 80 ) {
+        console.log('จับใบดำใบแดง')
+    } else {
+        console.log('ไม่ต้องเกณฑ์')
+    }
+}
+
+
+gen('เพศชาย', 170,17)
+
+function ao(l: string,e: number, q:number) {
+    if (l === 'เพศชาย' && e >= 170 &&  (q > 50 && q<= 110)) {
+        console.log('จับใบดำใบแดง')
+    } else {
+        console.log('ไม่ต้องเกณฑ์')
+    }
+        
+}
+
+ao('เพศชาย',170,111)
