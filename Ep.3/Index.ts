@@ -49,3 +49,21 @@ function ao(l: string,e: number, q:number) {
 }
 
 ao('เพศชาย',170,111)
+
+function aa(weight: number,height: number) {
+    const bmi = weight / (height* height) 
+    if  (bmi < 18.50) {
+        return  "น้ำหนักน้อย/ผอม"
+    }else if (bmi >= 18.50&&bmi <=22.90) {
+        return  "ปกติ(สุขภาพดี)"
+    }else if (bmi >= 23&&bmi <=24.90) {
+        return  "ท้วม/โรคอ้วนระดับ 1"
+    }else if (bmi >= 25&&bmi <=29.90) {
+        return  "อ้วน/โรคอ้วนระดับ 2"
+    }else if (bmi >= 30) {
+        return  "อ้วนมาก/โรคอ้วนระดับ 3"
+    }
+}
+
+console.log(aa(70,180))
+
