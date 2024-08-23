@@ -67,3 +67,4 @@ function aa(weight: number,height: number) {
 
 console.log(aa(70,180))
 
+
