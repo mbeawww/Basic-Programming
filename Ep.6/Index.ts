@@ -15,20 +15,32 @@
 
 // const animal: string ='แมว,แมวน้ำ,เพนกวิ้น,หมา'
 
-// // const animalArray =  animal.split(',')
-// // console.log(animalArray)
-// // console.log(animalArray.pop()) //เอาตัวหลังออก
-// // console.log(animalArray)
-// // animalArray.push('บ้าน') //เอามาแทนที่ตัวหลัง
-// // console.log(animalArray)
-// // animalArray.shift() // เอาตัวหน้าออก
-// // console.log(animalArray)
-// // animalArray.unshift('แรด') //เอามาแทนที่ตัวหน้า
-// // console.log(animalArray)
-// // // console.log(animalArray.sort()) //เรียงอักษร ก-ฮ
-// // // console.log(animalArray.reverse()) //เรียงอักษร ฮ-ก
-// // console.log(animalArray.slice(0,2))
+// const animalArray =  animal.split(',')
+// console.log(animalArray)
+// console.log(animalArray.pop()) //เอาตัวหลังออก
+// console.log(animalArray)
+// animalArray.push('บ้าน') //เอามาแทนที่ตัวหลัง
+// console.log(animalArray)
+// animalArray.shift() // เอาตัวหน้าออก
+// console.log(animalArray)
+// animalArray.unshift('แรด') //เอามาแทนที่ตัวหน้า
+// console.log(animalArray)
+// // console.log(animalArray.sort()) //เรียงอักษร ก-ฮ
+// // console.log(animalArray.reverse()) //เรียงอักษร ฮ-ก
+// console.log(animalArray.slice(0,2))
 
-const fruits = ["Banana","Orange","Apple","Mango"]
-console.log(fruits.sort())
-console.log(fruits.reverse())
+// const fruits = ["Banana","Orange","Apple","Mango"]
+// console.log(fruits.sort())
+// console.log(fruits.reverse())
+
+// const me = {
+//     firstName: "KanKawee",
+//     lastName: "Lamoon",
+//     age: 21
+// }
+//ประวัติของฉัน
+//ชื่อ Kankawee
+//นามสกุล Lamoon
+//อายุ 21
+
+
