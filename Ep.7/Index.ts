@@ -968,3 +968,20 @@ console.log(deathDetaBese)
 // })
 
 // console.log(MapdetaBese)
+
+const data = detaBese.results.filter(function(element,index){
+    return element.language === 'thai' && element.source_name === 'thai Pbs News'
+}).map(function(element, index){
+    return ({
+        title: element.title,
+        link: element.,
+        link: element.link,
+        description: element.description,
+        source_id: element.source_id,
+        image_url: element.image_url
+    })
+}
+)
+
+console.log(detaBese)
+console.log(data)
